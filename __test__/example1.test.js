@@ -10,6 +10,7 @@ describe('api tests: regres api', () => {
         expect(res.ok).toBe(true);
         expect(res.statusCode).toBe(200);
         expect(res.body.data[0].id).toBe(1);
+        expect(res.body.data[0].id).toBe(2);
     });
 
     test('should return a single user', async () => {
